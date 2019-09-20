@@ -1,0 +1,73 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf600
+{\fonttbl\f0\fmodern\fcharset0 Courier;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red255\green255\blue255;}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;\cssrgb\c100000\c100000\c100000;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\sl320\partightenfactor0
+
+\f0\fs28 \cf2 \cb3 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Please see below descriptions of my datasets.\
+The main Y variable is the price in the housing df, \'91df_hou\'92.\
+\
+df_hou.shape = (7113773, 16)\
+\
+housing_data_dict = \{\
+'TUI': 'Unique Code for each sale', \
+'Price': 'Y VARIABLE - Price property was sold for in GBP', \
+'Date_of_Transfer': 'Date property was sold', \
+'PostCode': 'Postcode of property', \
+'Property_Type': 'Type of property',\
+'Newly_Built': 'Boolean, yes for newly built (post 19xx*)', \
+'Tenure': 'Freehold or Leasehold', \
+'PAON': 'Primary address details e.g. flat number', \
+'SAON': 'Secondary address details e.g. building name', \
+'Street': 'Street address', \
+'Locality': 'One level up from town',\
+'Town/City': 'Town/City', \
+'District': 'Borough', \
+'County': 'County', \
+'PPD_Category_Type': 'TBC',\
+'Record_Status': 'TBC'\
+\}\
+\
+qualifications_df.shape = (3465, 7)\
+\
+qualifications_data_dict = \{\
+'Area': 'Borough', \
+'Year': 'Year', \
+'Qualification': '9 levels of education', \
+'Number': 'Number of people with qualifications described in Qualification column', \
+'Denominator': 'Total number of people in the Borough', \
+'Percent': 'Number divided by Denominator, the percent of people in the borough with qualifications in Qualifications column',\
+'Confidence': 'Confidence interval? Not 100% sure'\
+\}\
+\
+crime_df.shape = (13490604, 7)\
+\
+crime_data_dict = \{\
+'lsoa_code': 'Unique code per Borough', \
+'borough': 'Borough', \
+'major_category': 'Major crime category', \
+'minor_category': 'Minor crime category', \
+'value': 'How many crimes in said month / Borough',\
+'year': 'Year', \
+'month': 'Month'\
+\}\
+\
+borough_df.shape = (33, 12)\
+\
+borough_data_dict = \{\
+'Chicken': 'Number of chicken shops in the borough', \
+'Coffee': 'Number of coffee shops in the borough', \
+'Inner': 'Is the borough classified as "Inner City"?', \
+'Status': 'Does the borough have any special status e.g. City', \
+'Local authority': 'Local Authority',\
+'Political control': 'Which political party is currently in control of the Local Authority', \
+'Headquarters': 'Where the Local Authority Headquarters are based', \
+'Area (sq mi)': 'The area of the borough in square miles', \
+'Area (sq km)': 'The area of the borough in square kilometers',\
+'Population (2013 est)': 'Population of the Borough, as estimated in 2013', \
+'Nr. in map': 'The number associated with the Borough for the common London Borough map', \
+'HQ_Co_ordinates': 'LA HQ Co-ordinates'\
+\}}

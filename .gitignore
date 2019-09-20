@@ -1,0 +1,14 @@
+#adding a gitignore for csv files and other map, shape files etc.
+pp-complete.csv
+crime_df_1.csv
+GCSE
+statistical-gis-boundaries-london
+*.xls
+*.geojson
+*.shp
+*.dbf
+*.shx
+*.atx
+*.DAT
+*.MAP
+*.xmlv
